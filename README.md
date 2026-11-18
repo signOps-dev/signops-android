@@ -1,6 +1,6 @@
 # SignOps for Android
 
-Approve, passkeys and push open reporting in an Android app (Android 9 and later). Approve keys are made in the Android Keystore (StrongBox when the phone has it) and never leave the phone. Passkeys go through Credential Manager; the same passkeys your website makes with `@signops/web` work here, and the other way round.
+[SignOps](https://signops.dev) in an Android app (Android 9 and later): Approve, passkeys and push open reporting. Approve keys are made in the Android Keystore (StrongBox when the phone has it) and never leave the phone. Passkeys go through Credential Manager; the same passkeys your website makes with `@signops/web` work here, and the other way round.
 
 ```kotlin
 // build.gradle.kts: implementation("dev.signops:android:0.4.0")
